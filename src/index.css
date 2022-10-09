@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+}
+
+.App {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffff58;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+a, button {
+    display: block;
+    margin: 0 10px;
+    background: transparent;
+    border: 3px solid #ccc;
+    border-radius:20px;
+    padding: 10px;
+    color: #ccc;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+button:hover {
+    color: #fff;
+    border-color: #fff;
+}
